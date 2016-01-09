@@ -1,0 +1,29 @@
+﻿<Page
+    x:Class="IoTSuiteMonitoring.Views.AboutView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:IoTSuiteMonitoring.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel Margin="12">
+            <TextBlock Text="IoT Toolkit" Style="{ThemeResource HeaderTextBlockStyle}"/>
+            <TextBlock Text="Azure IoT Suite Monitoring Demo" Style="{ThemeResource TitleTextBlockStyle}"/>
+            <TextBlock Style="{ThemeResource BaseTextBlockStyle}">
+                <Run Text="Introduction" FontWeight="Bold"/><LineBreak />
+                <Run Text="This app act as a custom device for the Azure IoT Suite Monitoring edition. You need to setup an IoT Suite first. It's only 3 fields to fill and 5 min to wait for provisionning. It requires an Azure subscription (free trials available)." /><LineBreak />
+                <Hyperlink NavigateUri="http://azureiotsuite.com">http://azureiotsuite.com</Hyperlink><LineBreak />
+                <LineBreak />
+                <Run Text="Documentation" FontWeight="Bold"/><LineBreak />
+                <Run Text="You will find a detailed description of the project and various articles about the project on my blog." /><LineBreak />
+                <Hyperlink NavigateUri="http://danvy.tv/category/iot-toolkit/" >http://danvy.tv/category/iot-toolkit</Hyperlink><LineBreak />
+                <LineBreak />
+                <Run Text="Source code" FontWeight="Bold"/><LineBreak />
+                <Run Text="100% source code is provided under the Apache License 2.0 on GitHub. Feel free to fork and contribute." /><LineBreak />
+                <Hyperlink NavigateUri="http://github.com/danvy/fezhat" >http://github.com/danvy/iot-toolkit </Hyperlink>
+            </TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>

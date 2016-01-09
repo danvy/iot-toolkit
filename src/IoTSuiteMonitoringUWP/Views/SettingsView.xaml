@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="IoTSuiteMonitoring.Views.SettingsView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:IoTSuiteMonitoring.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    DataContext="{Binding ViewModel, RelativeSource={RelativeSource Self}}">
+    <Page.BottomAppBar>
+        <CommandBar>
+            <AppBarButton Command="{Binding SaveCommand}" Label="Save" Icon="Save" />
+        </CommandBar>
+    </Page.BottomAppBar>
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel Margin="12">
+            <TextBlock Text="Settings" Style="{ThemeResource HeaderTextBlockStyle}"/>
+            <TextBox Text="{Binding Host, Mode=TwoWay}" Header="Host name" PlaceholderText="Ex: MyIoTSuiteHost" />
+            <TextBox Text="{Binding DeviceId, Mode=TwoWay}" Header="Device Id" PlaceholderText="Ex: MyDeviceId" />
+            <TextBox Text="{Binding Key, Mode=TwoWay}" Header="Device key" PlaceholderText="Ex: "/>
+            <!--<Button Content="Save" Command="{Binding SaveCommand}" Margin="0 12 0 0"/>-->
+        </StackPanel>
+    </Grid>
+</Page>
