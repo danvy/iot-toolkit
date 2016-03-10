@@ -15,11 +15,11 @@ namespace FezHatBlinkHeadless
     {
         private FEZHAT _hat;
         private bool _LedSwitch = false;
-        BackgroundTaskDeferral deferral;
+        BackgroundTaskDeferral _deferral;
         private ThreadPoolTimer _timer;
         public async void Run(IBackgroundTaskInstance taskInstance)
         {
-            deferral = taskInstance.GetDeferral();
+            _deferral = taskInstance.GetDeferral();
             _hat = await FEZHAT.CreateAsync();
             _timer = ThreadPoolTimer.CreatePeriodicTimer(Timer_Tick, TimeSpan.FromMilliseconds(1000));
         }

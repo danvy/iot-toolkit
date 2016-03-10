@@ -17,12 +17,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoTSuiteLib", "IoTSuiteLib\
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "IoTSuiteMonitoringFezHatShared", "IoTSuiteMonitoringFezHatShared\IoTSuiteMonitoringFezHatShared.shproj", "{02C25315-2F5C-49C6-AA48-0F48CB3A9FDF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrovePiSigfox", "GrovePiSigfox\GrovePiSigfox.csproj", "{68E9117B-5A88-400D-9FF4-BDFF05A2EB36}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		IoTSuiteMonitoringShared\IoTSuiteMonitoringShared.projitems*{312c3da4-4cc3-449d-9751-ad443edde9b4}*SharedItemsImports = 13
 		IoTSuiteMonitoringFezHatShared\IoTSuiteMonitoringFezHatShared.projitems*{02c25315-2f5c-49c6-aa48-0f48cb3a9fdf}*SharedItemsImports = 13
-		IoTSuiteMonitoringFezHatShared\IoTSuiteMonitoringFezHatShared.projitems*{b12bc832-6549-4487-95d2-b2ece8f12c51}*SharedItemsImports = 4
 		IoTSuiteMonitoringShared\IoTSuiteMonitoringShared.projitems*{b12bc832-6549-4487-95d2-b2ece8f12c51}*SharedItemsImports = 4
+		IoTSuiteMonitoringFezHatShared\IoTSuiteMonitoringFezHatShared.projitems*{b12bc832-6549-4487-95d2-b2ece8f12c51}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -130,6 +132,26 @@ Global
 		{3E44A9E4-ED33-406C-9BB8-B0DA1C75FBE4}.Release|x64.Build.0 = Release|Any CPU
 		{3E44A9E4-ED33-406C-9BB8-B0DA1C75FBE4}.Release|x86.ActiveCfg = Release|Any CPU
 		{3E44A9E4-ED33-406C-9BB8-B0DA1C75FBE4}.Release|x86.Build.0 = Release|Any CPU
+		{68E9117B-5A88-400D-9FF4-BDFF05A2EB36}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{68E9117B-5A88-400D-9FF4-BDFF05A2EB36}.Debug|ARM.ActiveCfg = Debug|ARM
+		{68E9117B-5A88-400D-9FF4-BDFF05A2EB36}.Debug|ARM.Build.0 = Debug|ARM
+		{68E9117B-5A88-400D-9FF4-BDFF05A2EB36}.Debug|ARM.Deploy.0 = Debug|ARM
+		{68E9117B-5A88-400D-9FF4-BDFF05A2EB36}.Debug|x64.ActiveCfg = Debug|x64
+		{68E9117B-5A88-400D-9FF4-BDFF05A2EB36}.Debug|x64.Build.0 = Debug|x64
+		{68E9117B-5A88-400D-9FF4-BDFF05A2EB36}.Debug|x64.Deploy.0 = Debug|x64
+		{68E9117B-5A88-400D-9FF4-BDFF05A2EB36}.Debug|x86.ActiveCfg = Debug|x86
+		{68E9117B-5A88-400D-9FF4-BDFF05A2EB36}.Debug|x86.Build.0 = Debug|x86
+		{68E9117B-5A88-400D-9FF4-BDFF05A2EB36}.Debug|x86.Deploy.0 = Debug|x86
+		{68E9117B-5A88-400D-9FF4-BDFF05A2EB36}.Release|Any CPU.ActiveCfg = Release|x86
+		{68E9117B-5A88-400D-9FF4-BDFF05A2EB36}.Release|ARM.ActiveCfg = Release|ARM
+		{68E9117B-5A88-400D-9FF4-BDFF05A2EB36}.Release|ARM.Build.0 = Release|ARM
+		{68E9117B-5A88-400D-9FF4-BDFF05A2EB36}.Release|ARM.Deploy.0 = Release|ARM
+		{68E9117B-5A88-400D-9FF4-BDFF05A2EB36}.Release|x64.ActiveCfg = Release|x64
+		{68E9117B-5A88-400D-9FF4-BDFF05A2EB36}.Release|x64.Build.0 = Release|x64
+		{68E9117B-5A88-400D-9FF4-BDFF05A2EB36}.Release|x64.Deploy.0 = Release|x64
+		{68E9117B-5A88-400D-9FF4-BDFF05A2EB36}.Release|x86.ActiveCfg = Release|x86
+		{68E9117B-5A88-400D-9FF4-BDFF05A2EB36}.Release|x86.Build.0 = Release|x86
+		{68E9117B-5A88-400D-9FF4-BDFF05A2EB36}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
